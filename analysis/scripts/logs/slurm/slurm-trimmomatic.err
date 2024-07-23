@@ -1,0 +1,133 @@
+trimmomatic/0.39 loaded, see 'module help trimmomatic/0.39' for more information.
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/ALAN/SRR27370365/SRR27370365_1.fastq.gz /proj/naiss2024-23-424/data/raw/ALAN/SRR27370365/SRR27370365_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370365/ALAN_SRR27370365_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370365/ALAN_SRR27370365_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370365/ALAN_SRR27370365_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370365/ALAN_SRR27370365_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 38754919 Both Surviving: 38748591 (99.98%) Forward Only Surviving: 6328 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/ALAN/SRR27370371/SRR27370371_1.fastq.gz /proj/naiss2024-23-424/data/raw/ALAN/SRR27370371/SRR27370371_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370371/ALAN_SRR27370371_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370371/ALAN_SRR27370371_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370371/ALAN_SRR27370371_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370371/ALAN_SRR27370371_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 76546061 Both Surviving: 76536233 (99.99%) Forward Only Surviving: 9828 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/ALAN/SRR27370375/SRR27370375_1.fastq.gz /proj/naiss2024-23-424/data/raw/ALAN/SRR27370375/SRR27370375_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370375/ALAN_SRR27370375_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370375/ALAN_SRR27370375_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370375/ALAN_SRR27370375_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370375/ALAN_SRR27370375_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 62259637 Both Surviving: 62252955 (99.99%) Forward Only Surviving: 6682 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/ALAN/SRR27370376/SRR27370376_1.fastq.gz /proj/naiss2024-23-424/data/raw/ALAN/SRR27370376/SRR27370376_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370376/ALAN_SRR27370376_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370376/ALAN_SRR27370376_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370376/ALAN_SRR27370376_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370376/ALAN_SRR27370376_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 44530193 Both Surviving: 44522902 (99.98%) Forward Only Surviving: 7291 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/ALAN/SRR27370382/SRR27370382_1.fastq.gz /proj/naiss2024-23-424/data/raw/ALAN/SRR27370382/SRR27370382_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370382/ALAN_SRR27370382_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370382/ALAN_SRR27370382_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370382/ALAN_SRR27370382_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/ALAN/SRR27370382/ALAN_SRR27370382_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 77944356 Both Surviving: 77933775 (99.99%) Forward Only Surviving: 10581 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/soot/SRR27370368/SRR27370368_1.fastq.gz /proj/naiss2024-23-424/data/raw/soot/SRR27370368/SRR27370368_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370368/soot_SRR27370368_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370368/soot_SRR27370368_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370368/soot_SRR27370368_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370368/soot_SRR27370368_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 55041787 Both Surviving: 55033633 (99.99%) Forward Only Surviving: 8154 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/soot/SRR27370369/SRR27370369_1.fastq.gz /proj/naiss2024-23-424/data/raw/soot/SRR27370369/SRR27370369_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370369/soot_SRR27370369_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370369/soot_SRR27370369_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370369/soot_SRR27370369_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370369/soot_SRR27370369_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 58947439 Both Surviving: 58936608 (99.98%) Forward Only Surviving: 10831 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/soot/SRR27370377/SRR27370377_1.fastq.gz /proj/naiss2024-23-424/data/raw/soot/SRR27370377/SRR27370377_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370377/soot_SRR27370377_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370377/soot_SRR27370377_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370377/soot_SRR27370377_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370377/soot_SRR27370377_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 48318369 Both Surviving: 48312217 (99.99%) Forward Only Surviving: 6152 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/soot/SRR27370380/SRR27370380_1.fastq.gz /proj/naiss2024-23-424/data/raw/soot/SRR27370380/SRR27370380_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370380/soot_SRR27370380_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370380/soot_SRR27370380_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370380/soot_SRR27370380_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370380/soot_SRR27370380_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 64609209 Both Surviving: 64601842 (99.99%) Forward Only Surviving: 7367 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/soot/SRR27370383/SRR27370383_1.fastq.gz /proj/naiss2024-23-424/data/raw/soot/SRR27370383/SRR27370383_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370383/soot_SRR27370383_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370383/soot_SRR27370383_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370383/soot_SRR27370383_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370383/soot_SRR27370383_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 49415894 Both Surviving: 49411360 (99.99%) Forward Only Surviving: 4534 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/soot/SRR27370386/SRR27370386_1.fastq.gz /proj/naiss2024-23-424/data/raw/soot/SRR27370386/SRR27370386_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370386/soot_SRR27370386_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370386/soot_SRR27370386_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370386/soot_SRR27370386_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/soot/SRR27370386/soot_SRR27370386_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 49821076 Both Surviving: 49812795 (99.98%) Forward Only Surviving: 8281 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/noise/SRR27370366/SRR27370366_1.fastq.gz /proj/naiss2024-23-424/data/raw/noise/SRR27370366/SRR27370366_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370366/noise_SRR27370366_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370366/noise_SRR27370366_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370366/noise_SRR27370366_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370366/noise_SRR27370366_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 61194295 Both Surviving: 61188551 (99.99%) Forward Only Surviving: 5744 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/noise/SRR27370370/SRR27370370_1.fastq.gz /proj/naiss2024-23-424/data/raw/noise/SRR27370370/SRR27370370_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370370/noise_SRR27370370_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370370/noise_SRR27370370_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370370/noise_SRR27370370_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370370/noise_SRR27370370_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 58653774 Both Surviving: 58646503 (99.99%) Forward Only Surviving: 7271 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/noise/SRR27370372/SRR27370372_1.fastq.gz /proj/naiss2024-23-424/data/raw/noise/SRR27370372/SRR27370372_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370372/noise_SRR27370372_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370372/noise_SRR27370372_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370372/noise_SRR27370372_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370372/noise_SRR27370372_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 99110041 Both Surviving: 99101411 (99.99%) Forward Only Surviving: 8630 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/noise/SRR27370373/SRR27370373_1.fastq.gz /proj/naiss2024-23-424/data/raw/noise/SRR27370373/SRR27370373_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370373/noise_SRR27370373_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370373/noise_SRR27370373_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370373/noise_SRR27370373_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370373/noise_SRR27370373_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 52409462 Both Surviving: 52408110 (100.00%) Forward Only Surviving: 1352 (0.00%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/noise/SRR27370374/SRR27370374_1.fastq.gz /proj/naiss2024-23-424/data/raw/noise/SRR27370374/SRR27370374_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370374/noise_SRR27370374_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370374/noise_SRR27370374_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370374/noise_SRR27370374_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370374/noise_SRR27370374_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 52304251 Both Surviving: 52295806 (99.98%) Forward Only Surviving: 8445 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/noise/SRR27370381/SRR27370381_1.fastq.gz /proj/naiss2024-23-424/data/raw/noise/SRR27370381/SRR27370381_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370381/noise_SRR27370381_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370381/noise_SRR27370381_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370381/noise_SRR27370381_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/noise/SRR27370381/noise_SRR27370381_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 69069280 Both Surviving: 69061772 (99.99%) Forward Only Surviving: 7508 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/control/SRR27370367/SRR27370367_1.fastq.gz /proj/naiss2024-23-424/data/raw/control/SRR27370367/SRR27370367_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370367/control_SRR27370367_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370367/control_SRR27370367_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370367/control_SRR27370367_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370367/control_SRR27370367_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 63351802 Both Surviving: 63341278 (99.98%) Forward Only Surviving: 10524 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/control/SRR27370378/SRR27370378_1.fastq.gz /proj/naiss2024-23-424/data/raw/control/SRR27370378/SRR27370378_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370378/control_SRR27370378_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370378/control_SRR27370378_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370378/control_SRR27370378_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370378/control_SRR27370378_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 57423614 Both Surviving: 57414530 (99.98%) Forward Only Surviving: 9084 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/control/SRR27370379/SRR27370379_1.fastq.gz /proj/naiss2024-23-424/data/raw/control/SRR27370379/SRR27370379_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370379/control_SRR27370379_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370379/control_SRR27370379_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370379/control_SRR27370379_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370379/control_SRR27370379_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 71256712 Both Surviving: 71249549 (99.99%) Forward Only Surviving: 7163 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/control/SRR27370384/SRR27370384_1.fastq.gz /proj/naiss2024-23-424/data/raw/control/SRR27370384/SRR27370384_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370384/control_SRR27370384_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370384/control_SRR27370384_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370384/control_SRR27370384_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370384/control_SRR27370384_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 56714046 Both Surviving: 56705853 (99.99%) Forward Only Surviving: 8193 (0.01%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 18 -phred33 /proj/naiss2024-23-424/data/raw/control/SRR27370385/SRR27370385_1.fastq.gz /proj/naiss2024-23-424/data/raw/control/SRR27370385/SRR27370385_2.fastq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370385/control_SRR27370385_1P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370385/control_SRR27370385_1U.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370385/control_SRR27370385_2P.fq.gz /proj/naiss2024-23-424/data/trimmed/control/SRR27370385/control_SRR27370385_2U.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/rackham/adapters/TruSeq3-PE.fa:2:30:7 SLIDINGWINDOW:5:20
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 56781202 Both Surviving: 56770852 (99.98%) Forward Only Surviving: 10350 (0.02%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully

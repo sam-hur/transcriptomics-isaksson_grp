@@ -1,0 +1,98 @@
+[2024-07-13 16:02:49,267] multiqc.core.update_config                         [DEBUG  ]  This is MultiQC v1.22.2
+[2024-07-13 16:02:49,267] multiqc.core.update_config                         [DEBUG  ]  Running Python 3.8.7 (default, Feb  1 2021, 11:54:01)  [GCC 8.3.0]
+[2024-07-13 16:02:49,286] urllib3.connectionpool                             [DEBUG  ]  Starting new HTTPS connection (1): api.multiqc.info:443
+[2024-07-13 16:02:49,512] urllib3.connectionpool                             [DEBUG  ]  https://api.multiqc.info:443 "GET /version?version_multiqc=1.22.2&version_python=3.8.7&operating_system=Linux&is_docker=False&is_singularity=False&is_conda=False&is_ci=False&is_notebook=False HTTP/1.1" 200 178
+[2024-07-13 16:02:49,515] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.23 now available!
+[2024-07-13 16:02:49,515] multiqc.core.version_check                         [DEBUG  ]  Latest MultiQC version is v1.23, released 2024-07-09
+[2024-07-13 16:02:49,516] multiqc.multiqc                                    [DEBUG  ]  Working dir : /crex/proj/naiss2024-23-424/analysis/scripts
+[2024-07-13 16:02:49,516] multiqc.multiqc                                    [DEBUG  ]  Template    : default
+[2024-07-13 16:02:49,516] multiqc.report                                     [DEBUG  ]  Using temporary directory: /scratch/48676578/tmp7p_vxclz
+[2024-07-13 16:02:49,516] multiqc.multiqc                                    [DEBUG  ]  Command used: /sw/bioinfo/MultiQC/1.22.2/rackham/bin/multiqc /proj/naiss2024-23-424/analysis/outputs/FastQC -o /proj/naiss2024-23-424/analysis/outputs/MultiQC -p -v -f
+[2024-07-13 16:02:49,518] multiqc.core.file_search                           [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, isoseq, lima, peddy, somalier, methylqa, mosdepth, phantompeakqualtools, qualimap, bamdst, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, truvari, megahit, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, hostile, cellranger, snpsplit, odgi, pangolin, nextclade, freyja, humid, kat, leehom, librarian, nonpareil, adapterremoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, bracken, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, sequali, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, spaceranger, xenome, xengsort, metaphlan, seqwho
+[2024-07-13 16:02:49,518] multiqc.core.file_search                           [INFO   ]  Search path: /proj/naiss2024-23-424/analysis/outputs/FastQC
+[2024-07-13 16:02:49,533] multiqc.report                                     [DEBUG  ]  Ignored 1 search patterns as didn't match running modules.
+[2024-07-13 16:02:54,751] multiqc.report                                     [DEBUG  ]  Summary of files that were skipped by the search: |skipped_module_specific_max_filesize: 1034|, |skipped_no_match: 132|
+[2024-07-13 16:02:54,751] multiqc.core.exec_modules                          [DEBUG  ]  Running module: custom_content
+[2024-07-13 16:02:54,813] multiqc.core.exec_modules                          [DEBUG  ]  No samples found: custom_content
+[2024-07-13 16:02:54,813] multiqc.core.exec_modules                          [DEBUG  ]  Running module: fastqc
+[2024-07-13 16:02:59,534] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 132 reports
+[2024-07-13 16:02:59,535] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'control_SRR27370384_2U'
+[2024-07-13 16:02:59,535] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'control_SRR27370385_2U'
+[2024-07-13 16:02:59,535] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'control_SRR27370378_2U'
+[2024-07-13 16:02:59,536] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'control_SRR27370367_2U'
+[2024-07-13 16:02:59,536] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'control_SRR27370379_2U'
+[2024-07-13 16:02:59,536] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'ALAN_SRR27370382_2U'
+[2024-07-13 16:02:59,536] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'ALAN_SRR27370371_2U'
+[2024-07-13 16:02:59,536] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'ALAN_SRR27370365_2U'
+[2024-07-13 16:02:59,536] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'ALAN_SRR27370375_2U'
+[2024-07-13 16:02:59,537] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'ALAN_SRR27370376_2U'
+[2024-07-13 16:02:59,537] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'noise_SRR27370374_2U'
+[2024-07-13 16:02:59,537] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'noise_SRR27370366_2U'
+[2024-07-13 16:02:59,537] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'noise_SRR27370372_2U'
+[2024-07-13 16:02:59,537] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'noise_SRR27370381_2U'
+[2024-07-13 16:02:59,537] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'noise_SRR27370370_2U'
+[2024-07-13 16:02:59,538] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'noise_SRR27370373_2U'
+[2024-07-13 16:02:59,538] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'soot_SRR27370386_2U'
+[2024-07-13 16:02:59,538] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'soot_SRR27370368_2U'
+[2024-07-13 16:02:59,538] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'soot_SRR27370383_2U'
+[2024-07-13 16:02:59,538] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'soot_SRR27370369_2U'
+[2024-07-13 16:02:59,538] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'soot_SRR27370377_2U'
+[2024-07-13 16:02:59,539] multiqc.modules.fastqc.fastqc                      [WARNING]  Sample had zero reads: 'soot_SRR27370380_2U'
+[2024-07-13 16:03:00,260] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'xDecimals'. Use 'x_decimals' instead
+[2024-07-13 16:03:00,260] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'yPlotBands'. Use 'y_bands' instead
+[2024-07-13 16:03:00,396] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'xDecimals'. Use 'x_decimals' instead
+[2024-07-13 16:03:00,396] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'xPlotBands'. Use 'x_bands' instead
+[2024-07-13 16:03:00,693] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'table_title'. Use 'title' instead
+[2024-07-13 16:03:00,774] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'xTitle'. Use 'xlab' instead
+[2024-07-13 16:03:00,774] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'yTitle'. Use 'ylab' instead
+[2024-07-13 16:03:00,774] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'datalabels'. Use 'display_values' instead
+[2024-07-13 16:03:00,803] multiqc.base_module                                [DEBUG  ]  fastqc: deleting attribute self.dup_keys
+[2024-07-13 16:03:00,803] multiqc.base_module                                [DEBUG  ]  fastqc: deleting attribute self.status_colours
+[2024-07-13 16:03:00,803] multiqc.core.software_versions                     [DEBUG  ]  Reading software versions from config.software_versions
+[2024-07-13 16:03:04,830] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:04,830] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:05,497] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:05,498] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:05,761] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_sequence_counts_plot.txt
+[2024-07-13 16:03:07,046] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:07,046] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:07,413] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_base_sequence_quality_plot.txt
+[2024-07-13 16:03:08,483] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:08,483] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:08,839] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_quality_scores_plot.txt
+[2024-07-13 16:03:10,415] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:10,416] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:12,348] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:12,348] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:12,814] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_gc_content_plot_Percentages.txt
+[2024-07-13 16:03:12,842] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_gc_content_plot_Counts.txt
+[2024-07-13 16:03:13,721] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:13,721] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:14,065] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_base_n_content_plot.txt
+[2024-07-13 16:03:15,168] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:15,169] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:15,553] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_sequence_length_distribution_plot.txt
+[2024-07-13 16:03:16,846] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:16,846] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:17,269] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_sequence_duplication_levels_plot.txt
+[2024-07-13 16:03:17,525] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:17,525] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:17,776] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_overrepresented_sequences_plot.txt
+[2024-07-13 16:03:18,357] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:18,357] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:18,437] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_top_overrepresented_sequences_table.txt
+[2024-07-13 16:03:18,767] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:18,768] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:19,108] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc-status-check-heatmap.txt
+[2024-07-13 16:03:19,108] multiqc.plots.plotly.plot                          [DEBUG  ]  Deprecated field 'table_title'. Use 'title' instead
+[2024-07-13 16:03:19,235] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2024-07-13 16:03:19,833] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IHDR' 16 13
+[2024-07-13 16:03:19,833] PIL.PngImagePlugin                                 [DEBUG  ]  STREAM b'IDAT' 41 8192
+[2024-07-13 16:03:19,963] multiqc.core.write_results                         [DEBUG  ]  Moving data file from '/scratch/48676578/tmp7p_vxclz/multiqc_data' to '/crex/proj/naiss2024-23-424/analysis/outputs/MultiQC/multiqc_data'
+[2024-07-13 16:03:20,053] multiqc.core.write_results                         [INFO   ]  Data        : ../outputs/MultiQC/multiqc_data   (overwritten)
+[2024-07-13 16:03:20,358] multiqc.core.write_results                         [DEBUG  ]  Compressing plot data
+[2024-07-13 16:03:20,534] multiqc.core.write_results                         [INFO   ]  Report      : ../outputs/MultiQC/multiqc_report.html   (overwritten)
+[2024-07-13 16:03:20,534] multiqc.core.write_results                         [DEBUG  ]  Full report path: /crex/proj/naiss2024-23-424/analysis/outputs/MultiQC/multiqc_report.html
+[2024-07-13 16:03:20,535] multiqc.core.write_results                         [DEBUG  ]  Moving plots directory from '/scratch/48676578/tmp7p_vxclz/multiqc_plots' to '/crex/proj/naiss2024-23-424/analysis/outputs/MultiQC/multiqc_plots'
+[2024-07-13 16:03:20,538] multiqc.core.write_results                         [INFO   ]  Plots       : ../outputs/MultiQC/multiqc_plots   (overwritten)
+[2024-07-13 16:03:20,542] multiqc.multiqc                                    [INFO   ]  MultiQC complete
