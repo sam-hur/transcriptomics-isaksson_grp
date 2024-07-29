@@ -1,0 +1,558 @@
+++ ls /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370365
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370365
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370365
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370365/SRR27370365_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370365/SRR27370365_2.fastq.gz -S /scratch/48988059/SRR27370365.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370365/SRR27370365-summary.txt
+38754919 reads; of these:
+  38754919 (100.00%) were paired; of these:
+    6951150 (17.94%) aligned concordantly 0 times
+    30215917 (77.97%) aligned concordantly exactly 1 time
+    1587852 (4.10%) aligned concordantly >1 times
+    ----
+    6951150 pairs aligned concordantly 0 times; of these:
+      3111736 (44.77%) aligned discordantly 1 time
+    ----
+    3839414 pairs aligned 0 times concordantly or discordantly; of these:
+      7678828 mates make up the pairs; of these:
+        4332643 (56.42%) aligned 0 times
+        2762866 (35.98%) aligned exactly 1 time
+        583319 (7.60%) aligned >1 times
+94.41% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370365.sam -bo /scratch/48988059/SRR27370365.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370365.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370365/SRR27370365.sorted.bam
+[bam_sort_core] merging from 4 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370365/SRR27370365.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370365/SRR27370365.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370371
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370371
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370371
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370371/SRR27370371_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370371/SRR27370371_2.fastq.gz -S /scratch/48988059/SRR27370371.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370371/SRR27370371-summary.txt
+76546061 reads; of these:
+  76546061 (100.00%) were paired; of these:
+    10913489 (14.26%) aligned concordantly 0 times
+    62240321 (81.31%) aligned concordantly exactly 1 time
+    3392251 (4.43%) aligned concordantly >1 times
+    ----
+    10913489 pairs aligned concordantly 0 times; of these:
+      3540450 (32.44%) aligned discordantly 1 time
+    ----
+    7373039 pairs aligned 0 times concordantly or discordantly; of these:
+      14746078 mates make up the pairs; of these:
+        9094520 (61.67%) aligned 0 times
+        4747000 (32.19%) aligned exactly 1 time
+        904558 (6.13%) aligned >1 times
+94.06% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370371.sam -bo /scratch/48988059/SRR27370371.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370371.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370371/SRR27370371.sorted.bam
+[bam_sort_core] merging from 8 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370371/SRR27370371.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370371/SRR27370371.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370375
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370375
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370375
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370375/SRR27370375_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370375/SRR27370375_2.fastq.gz -S /scratch/48988059/SRR27370375.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370375/SRR27370375-summary.txt
+62259637 reads; of these:
+  62259637 (100.00%) were paired; of these:
+    8480068 (13.62%) aligned concordantly 0 times
+    51485289 (82.69%) aligned concordantly exactly 1 time
+    2294280 (3.69%) aligned concordantly >1 times
+    ----
+    8480068 pairs aligned concordantly 0 times; of these:
+      3084975 (36.38%) aligned discordantly 1 time
+    ----
+    5395093 pairs aligned 0 times concordantly or discordantly; of these:
+      10790186 mates make up the pairs; of these:
+        6269125 (58.10%) aligned 0 times
+        3842199 (35.61%) aligned exactly 1 time
+        678862 (6.29%) aligned >1 times
+94.97% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370375.sam -bo /scratch/48988059/SRR27370375.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370375.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370375/SRR27370375.sorted.bam
+[bam_sort_core] merging from 6 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370375/SRR27370375.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370375/SRR27370375.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370376
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370376
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370376
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370376/SRR27370376_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370376/SRR27370376_2.fastq.gz -S /scratch/48988059/SRR27370376.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370376/SRR27370376-summary.txt
+44530193 reads; of these:
+  44530193 (100.00%) were paired; of these:
+    6971228 (15.66%) aligned concordantly 0 times
+    35956622 (80.75%) aligned concordantly exactly 1 time
+    1602343 (3.60%) aligned concordantly >1 times
+    ----
+    6971228 pairs aligned concordantly 0 times; of these:
+      2948199 (42.29%) aligned discordantly 1 time
+    ----
+    4023029 pairs aligned 0 times concordantly or discordantly; of these:
+      8046058 mates make up the pairs; of these:
+        4736605 (58.87%) aligned 0 times
+        2853925 (35.47%) aligned exactly 1 time
+        455528 (5.66%) aligned >1 times
+94.68% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370376.sam -bo /scratch/48988059/SRR27370376.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370376.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370376/SRR27370376.sorted.bam
+[bam_sort_core] merging from 4 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370376/SRR27370376.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370376/SRR27370376.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370382
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370382
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370382
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370382/SRR27370382_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/ALAN/SRR27370382/SRR27370382_2.fastq.gz -S /scratch/48988059/SRR27370382.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370382/SRR27370382-summary.txt
+77944356 reads; of these:
+  77944356 (100.00%) were paired; of these:
+    12013322 (15.41%) aligned concordantly 0 times
+    61790562 (79.28%) aligned concordantly exactly 1 time
+    4140472 (5.31%) aligned concordantly >1 times
+    ----
+    12013322 pairs aligned concordantly 0 times; of these:
+      3913513 (32.58%) aligned discordantly 1 time
+    ----
+    8099809 pairs aligned 0 times concordantly or discordantly; of these:
+      16199618 mates make up the pairs; of these:
+        10165126 (62.75%) aligned 0 times
+        5032209 (31.06%) aligned exactly 1 time
+        1002283 (6.19%) aligned >1 times
+93.48% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370382.sam -bo /scratch/48988059/SRR27370382.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370382.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370382/SRR27370382.sorted.bam
+[bam_sort_core] merging from 8 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370382/SRR27370382.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/ALAN/SRR27370382/SRR27370382.sorted.bam.bai
++ set +x
+++ ls /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370368
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370368
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370368
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370368/SRR27370368_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370368/SRR27370368_2.fastq.gz -S /scratch/48988059/SRR27370368.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370368/SRR27370368-summary.txt
+55041787 reads; of these:
+  55041787 (100.00%) were paired; of these:
+    9227766 (16.77%) aligned concordantly 0 times
+    43367252 (78.79%) aligned concordantly exactly 1 time
+    2446769 (4.45%) aligned concordantly >1 times
+    ----
+    9227766 pairs aligned concordantly 0 times; of these:
+      3421661 (37.08%) aligned discordantly 1 time
+    ----
+    5806105 pairs aligned 0 times concordantly or discordantly; of these:
+      11612210 mates make up the pairs; of these:
+        7145784 (61.54%) aligned 0 times
+        3793815 (32.67%) aligned exactly 1 time
+        672611 (5.79%) aligned >1 times
+93.51% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370368.sam -bo /scratch/48988059/SRR27370368.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370368.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370368/SRR27370368.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370368/SRR27370368.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370368/SRR27370368.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370369
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370369
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370369
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370369/SRR27370369_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370369/SRR27370369_2.fastq.gz -S /scratch/48988059/SRR27370369.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370369/SRR27370369-summary.txt
+58947439 reads; of these:
+  58947439 (100.00%) were paired; of these:
+    9633077 (16.34%) aligned concordantly 0 times
+    46946939 (79.64%) aligned concordantly exactly 1 time
+    2367423 (4.02%) aligned concordantly >1 times
+    ----
+    9633077 pairs aligned concordantly 0 times; of these:
+      3688109 (38.29%) aligned discordantly 1 time
+    ----
+    5944968 pairs aligned 0 times concordantly or discordantly; of these:
+      11889936 mates make up the pairs; of these:
+        7161489 (60.23%) aligned 0 times
+        3967640 (33.37%) aligned exactly 1 time
+        760807 (6.40%) aligned >1 times
+93.93% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370369.sam -bo /scratch/48988059/SRR27370369.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370369.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370369/SRR27370369.sorted.bam
+[bam_sort_core] merging from 6 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370369/SRR27370369.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370369/SRR27370369.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370377
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370377
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370377
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370377/SRR27370377_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370377/SRR27370377_2.fastq.gz -S /scratch/48988059/SRR27370377.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370377/SRR27370377-summary.txt
+48318369 reads; of these:
+  48318369 (100.00%) were paired; of these:
+    7709110 (15.95%) aligned concordantly 0 times
+    38551865 (79.79%) aligned concordantly exactly 1 time
+    2057394 (4.26%) aligned concordantly >1 times
+    ----
+    7709110 pairs aligned concordantly 0 times; of these:
+      2734088 (35.47%) aligned discordantly 1 time
+    ----
+    4975022 pairs aligned 0 times concordantly or discordantly; of these:
+      9950044 mates make up the pairs; of these:
+        6186064 (62.17%) aligned 0 times
+        3187048 (32.03%) aligned exactly 1 time
+        576932 (5.80%) aligned >1 times
+93.60% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370377.sam -bo /scratch/48988059/SRR27370377.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370377.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370377/SRR27370377.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370377/SRR27370377.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370377/SRR27370377.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370380
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370380
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370380
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370380/SRR27370380_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370380/SRR27370380_2.fastq.gz -S /scratch/48988059/SRR27370380.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370380/SRR27370380-summary.txt
+64609209 reads; of these:
+  64609209 (100.00%) were paired; of these:
+    8602633 (13.31%) aligned concordantly 0 times
+    53013513 (82.05%) aligned concordantly exactly 1 time
+    2993063 (4.63%) aligned concordantly >1 times
+    ----
+    8602633 pairs aligned concordantly 0 times; of these:
+      2861073 (33.26%) aligned discordantly 1 time
+    ----
+    5741560 pairs aligned 0 times concordantly or discordantly; of these:
+      11483120 mates make up the pairs; of these:
+        7127021 (62.07%) aligned 0 times
+        3736320 (32.54%) aligned exactly 1 time
+        619779 (5.40%) aligned >1 times
+94.48% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370380.sam -bo /scratch/48988059/SRR27370380.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370380.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370380/SRR27370380.sorted.bam
+[bam_sort_core] merging from 6 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370380/SRR27370380.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370380/SRR27370380.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370383
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370383
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370383
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370383/SRR27370383_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370383/SRR27370383_2.fastq.gz -S /scratch/48988059/SRR27370383.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370383/SRR27370383-summary.txt
+49415894 reads; of these:
+  49415894 (100.00%) were paired; of these:
+    6852321 (13.87%) aligned concordantly 0 times
+    40267225 (81.49%) aligned concordantly exactly 1 time
+    2296348 (4.65%) aligned concordantly >1 times
+    ----
+    6852321 pairs aligned concordantly 0 times; of these:
+      1927211 (28.12%) aligned discordantly 1 time
+    ----
+    4925110 pairs aligned 0 times concordantly or discordantly; of these:
+      9850220 mates make up the pairs; of these:
+        6240609 (63.36%) aligned 0 times
+        3068333 (31.15%) aligned exactly 1 time
+        541278 (5.50%) aligned >1 times
+93.69% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370383.sam -bo /scratch/48988059/SRR27370383.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370383.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370383/SRR27370383.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370383/SRR27370383.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370383/SRR27370383.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370386
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370386
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370386
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370386/SRR27370386_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/soot/SRR27370386/SRR27370386_2.fastq.gz -S /scratch/48988059/SRR27370386.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370386/SRR27370386-summary.txt
+49821076 reads; of these:
+  49821076 (100.00%) were paired; of these:
+    7949754 (15.96%) aligned concordantly 0 times
+    38946562 (78.17%) aligned concordantly exactly 1 time
+    2924760 (5.87%) aligned concordantly >1 times
+    ----
+    7949754 pairs aligned concordantly 0 times; of these:
+      2669276 (33.58%) aligned discordantly 1 time
+    ----
+    5280478 pairs aligned 0 times concordantly or discordantly; of these:
+      10560956 mates make up the pairs; of these:
+        6766701 (64.07%) aligned 0 times
+        3157279 (29.90%) aligned exactly 1 time
+        636976 (6.03%) aligned >1 times
+93.21% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370386.sam -bo /scratch/48988059/SRR27370386.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370386.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370386/SRR27370386.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370386/SRR27370386.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/soot/SRR27370386/SRR27370386.sorted.bam.bai
++ set +x
+++ ls /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370366
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370366
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370366
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370366/SRR27370366_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370366/SRR27370366_2.fastq.gz -S /scratch/48988059/SRR27370366.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370366/SRR27370366-summary.txt
+61194295 reads; of these:
+  61194295 (100.00%) were paired; of these:
+    8593239 (14.04%) aligned concordantly 0 times
+    49475775 (80.85%) aligned concordantly exactly 1 time
+    3125281 (5.11%) aligned concordantly >1 times
+    ----
+    8593239 pairs aligned concordantly 0 times; of these:
+      2618611 (30.47%) aligned discordantly 1 time
+    ----
+    5974628 pairs aligned 0 times concordantly or discordantly; of these:
+      11949256 mates make up the pairs; of these:
+        7058317 (59.07%) aligned 0 times
+        4030607 (33.73%) aligned exactly 1 time
+        860332 (7.20%) aligned >1 times
+94.23% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370366.sam -bo /scratch/48988059/SRR27370366.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370366.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370366/SRR27370366.sorted.bam
+[bam_sort_core] merging from 6 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370366/SRR27370366.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370366/SRR27370366.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370370
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370370
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370370
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370370/SRR27370370_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370370/SRR27370370_2.fastq.gz -S /scratch/48988059/SRR27370370.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370370/SRR27370370-summary.txt
+58653774 reads; of these:
+  58653774 (100.00%) were paired; of these:
+    8580846 (14.63%) aligned concordantly 0 times
+    47629484 (81.20%) aligned concordantly exactly 1 time
+    2443444 (4.17%) aligned concordantly >1 times
+    ----
+    8580846 pairs aligned concordantly 0 times; of these:
+      2946545 (34.34%) aligned discordantly 1 time
+    ----
+    5634301 pairs aligned 0 times concordantly or discordantly; of these:
+      11268602 mates make up the pairs; of these:
+        6802715 (60.37%) aligned 0 times
+        3748946 (33.27%) aligned exactly 1 time
+        716941 (6.36%) aligned >1 times
+94.20% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370370.sam -bo /scratch/48988059/SRR27370370.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370370.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370370/SRR27370370.sorted.bam
+[bam_sort_core] merging from 6 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370370/SRR27370370.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370370/SRR27370370.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370372
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370372
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370372
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370372/SRR27370372_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370372/SRR27370372_2.fastq.gz -S /scratch/48988059/SRR27370372.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370372/SRR27370372-summary.txt
+99110041 reads; of these:
+  99110041 (100.00%) were paired; of these:
+    12093067 (12.20%) aligned concordantly 0 times
+    83075511 (83.82%) aligned concordantly exactly 1 time
+    3941463 (3.98%) aligned concordantly >1 times
+    ----
+    12093067 pairs aligned concordantly 0 times; of these:
+      3791276 (31.35%) aligned discordantly 1 time
+    ----
+    8301791 pairs aligned 0 times concordantly or discordantly; of these:
+      16603582 mates make up the pairs; of these:
+        9924520 (59.77%) aligned 0 times
+        5732124 (34.52%) aligned exactly 1 time
+        946938 (5.70%) aligned >1 times
+94.99% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370372.sam -bo /scratch/48988059/SRR27370372.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370372.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370372/SRR27370372.sorted.bam
+[bam_sort_core] merging from 10 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370372/SRR27370372.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370372/SRR27370372.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370373
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370373
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370373
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370373/SRR27370373_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370373/SRR27370373_2.fastq.gz -S /scratch/48988059/SRR27370373.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370373/SRR27370373-summary.txt
+52409462 reads; of these:
+  52409462 (100.00%) were paired; of these:
+    5233279 (9.99%) aligned concordantly 0 times
+    44902808 (85.68%) aligned concordantly exactly 1 time
+    2273375 (4.34%) aligned concordantly >1 times
+    ----
+    5233279 pairs aligned concordantly 0 times; of these:
+      751688 (14.36%) aligned discordantly 1 time
+    ----
+    4481591 pairs aligned 0 times concordantly or discordantly; of these:
+      8963182 mates make up the pairs; of these:
+        5170733 (57.69%) aligned 0 times
+        3196223 (35.66%) aligned exactly 1 time
+        596226 (6.65%) aligned >1 times
+95.07% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370373.sam -bo /scratch/48988059/SRR27370373.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370373.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370373/SRR27370373.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370373/SRR27370373.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370373/SRR27370373.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370374
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370374
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370374
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370374/SRR27370374_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370374/SRR27370374_2.fastq.gz -S /scratch/48988059/SRR27370374.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370374/SRR27370374-summary.txt
+52304251 reads; of these:
+  52304251 (100.00%) were paired; of these:
+    8609648 (16.46%) aligned concordantly 0 times
+    40976595 (78.34%) aligned concordantly exactly 1 time
+    2718008 (5.20%) aligned concordantly >1 times
+    ----
+    8609648 pairs aligned concordantly 0 times; of these:
+      3413786 (39.65%) aligned discordantly 1 time
+    ----
+    5195862 pairs aligned 0 times concordantly or discordantly; of these:
+      10391724 mates make up the pairs; of these:
+        6083404 (58.54%) aligned 0 times
+        3567087 (34.33%) aligned exactly 1 time
+        741233 (7.13%) aligned >1 times
+94.18% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370374.sam -bo /scratch/48988059/SRR27370374.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370374.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370374/SRR27370374.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370374/SRR27370374.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370374/SRR27370374.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370381
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370381
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370381
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370381/SRR27370381_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/noise/SRR27370381/SRR27370381_2.fastq.gz -S /scratch/48988059/SRR27370381.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370381/SRR27370381-summary.txt
+69069280 reads; of these:
+  69069280 (100.00%) were paired; of these:
+    9161404 (13.26%) aligned concordantly 0 times
+    56557259 (81.88%) aligned concordantly exactly 1 time
+    3350617 (4.85%) aligned concordantly >1 times
+    ----
+    9161404 pairs aligned concordantly 0 times; of these:
+      2939166 (32.08%) aligned discordantly 1 time
+    ----
+    6222238 pairs aligned 0 times concordantly or discordantly; of these:
+      12444476 mates make up the pairs; of these:
+        7849107 (63.07%) aligned 0 times
+        3967404 (31.88%) aligned exactly 1 time
+        627965 (5.05%) aligned >1 times
+94.32% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370381.sam -bo /scratch/48988059/SRR27370381.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370381.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370381/SRR27370381.sorted.bam
+[bam_sort_core] merging from 7 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370381/SRR27370381.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/noise/SRR27370381/SRR27370381.sorted.bam.bai
++ set +x
+++ ls /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370367
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370367
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370367
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370367/SRR27370367_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370367/SRR27370367_2.fastq.gz -S /scratch/48988059/SRR27370367.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370367/SRR27370367-summary.txt
+63351802 reads; of these:
+  63351802 (100.00%) were paired; of these:
+    10209031 (16.11%) aligned concordantly 0 times
+    49849631 (78.69%) aligned concordantly exactly 1 time
+    3293140 (5.20%) aligned concordantly >1 times
+    ----
+    10209031 pairs aligned concordantly 0 times; of these:
+      3979524 (38.98%) aligned discordantly 1 time
+    ----
+    6229507 pairs aligned 0 times concordantly or discordantly; of these:
+      12459014 mates make up the pairs; of these:
+        7456974 (59.85%) aligned 0 times
+        4237732 (34.01%) aligned exactly 1 time
+        764308 (6.13%) aligned >1 times
+94.11% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370367.sam -bo /scratch/48988059/SRR27370367.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370367.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370367/SRR27370367.sorted.bam
+[bam_sort_core] merging from 6 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370367/SRR27370367.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370367/SRR27370367.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370378
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370378
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370378
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370378/SRR27370378_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370378/SRR27370378_2.fastq.gz -S /scratch/48988059/SRR27370378.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370378/SRR27370378-summary.txt
+57423614 reads; of these:
+  57423614 (100.00%) were paired; of these:
+    8989795 (15.66%) aligned concordantly 0 times
+    46188420 (80.43%) aligned concordantly exactly 1 time
+    2245399 (3.91%) aligned concordantly >1 times
+    ----
+    8989795 pairs aligned concordantly 0 times; of these:
+      3745232 (41.66%) aligned discordantly 1 time
+    ----
+    5244563 pairs aligned 0 times concordantly or discordantly; of these:
+      10489126 mates make up the pairs; of these:
+        6190789 (59.02%) aligned 0 times
+        3718521 (35.45%) aligned exactly 1 time
+        579816 (5.53%) aligned >1 times
+94.61% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370378.sam -bo /scratch/48988059/SRR27370378.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370378.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370378/SRR27370378.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370378/SRR27370378.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370378/SRR27370378.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370379
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370379
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370379
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370379/SRR27370379_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370379/SRR27370379_2.fastq.gz -S /scratch/48988059/SRR27370379.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370379/SRR27370379-summary.txt
+71256712 reads; of these:
+  71256712 (100.00%) were paired; of these:
+    9832850 (13.80%) aligned concordantly 0 times
+    58450711 (82.03%) aligned concordantly exactly 1 time
+    2973151 (4.17%) aligned concordantly >1 times
+    ----
+    9832850 pairs aligned concordantly 0 times; of these:
+      3094241 (31.47%) aligned discordantly 1 time
+    ----
+    6738609 pairs aligned 0 times concordantly or discordantly; of these:
+      13477218 mates make up the pairs; of these:
+        8393739 (62.28%) aligned 0 times
+        4412172 (32.74%) aligned exactly 1 time
+        671307 (4.98%) aligned >1 times
+94.11% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370379.sam -bo /scratch/48988059/SRR27370379.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370379.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370379/SRR27370379.sorted.bam
+[bam_sort_core] merging from 7 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370379/SRR27370379.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370379/SRR27370379.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370384
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370384
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370384
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370384/SRR27370384_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370384/SRR27370384_2.fastq.gz -S /scratch/48988059/SRR27370384.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370384/SRR27370384-summary.txt
+56714046 reads; of these:
+  56714046 (100.00%) were paired; of these:
+    9319583 (16.43%) aligned concordantly 0 times
+    44915268 (79.20%) aligned concordantly exactly 1 time
+    2479195 (4.37%) aligned concordantly >1 times
+    ----
+    9319583 pairs aligned concordantly 0 times; of these:
+      3252922 (34.90%) aligned discordantly 1 time
+    ----
+    6066661 pairs aligned 0 times concordantly or discordantly; of these:
+      12133322 mates make up the pairs; of these:
+        7601528 (62.65%) aligned 0 times
+        3805276 (31.36%) aligned exactly 1 time
+        726518 (5.99%) aligned >1 times
+93.30% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370384.sam -bo /scratch/48988059/SRR27370384.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370384.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370384/SRR27370384.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370384/SRR27370384.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370384/SRR27370384.sorted.bam.bai
++ for sample in '$(ls $data)'
++ output=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370385
++ dir=/proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370385
++ mkdir -p /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370385
++ hisat2 -p 16 --dta -x /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index -1 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370385/SRR27370385_1.fastq.gz -2 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/raw/control/SRR27370385/SRR27370385_2.fastq.gz -S /scratch/48988059/SRR27370385.sam --rna-strandness FR --summary-file /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370385/SRR27370385-summary.txt
+56781202 reads; of these:
+  56781202 (100.00%) were paired; of these:
+    10232956 (18.02%) aligned concordantly 0 times
+    44127771 (77.72%) aligned concordantly exactly 1 time
+    2420475 (4.26%) aligned concordantly >1 times
+    ----
+    10232956 pairs aligned concordantly 0 times; of these:
+      4373175 (42.74%) aligned discordantly 1 time
+    ----
+    5859781 pairs aligned 0 times concordantly or discordantly; of these:
+      11719562 mates make up the pairs; of these:
+        6809063 (58.10%) aligned 0 times
+        4024548 (34.34%) aligned exactly 1 time
+        885951 (7.56%) aligned >1 times
+94.00% overall alignment rate
++ threads=8
++ samtools view -@ 8 -bS /scratch/48988059/SRR27370385.sam -bo /scratch/48988059/SRR27370385.bam
++ samtools sort -@ 8 /scratch/48988059/SRR27370385.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370385/SRR27370385.sorted.bam
+[bam_sort_core] merging from 5 files and 8 in-memory blocks...
++ samtools index -@ 8 /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370385/SRR27370385.sorted.bam -o /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-mapping/control/SRR27370385/SRR27370385.sorted.bam.bai
++ set +x

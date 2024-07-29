@@ -1,0 +1,78 @@
+Settings:
+  Output files: "/proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /proj/naiss2024-23-424/transcriptomics-isaksson_grp/data/ref/GCF_003957565.2_bTaeGut1.4.pri_genomic.fna
+Reading reference sizes
+  Time reading reference sizes: 00:00:07
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:06
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 12335583 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 12335583 --dcv 1024
+Constructing suffix-array element generator
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 306050462
+fchr[G]: 526435244
+fchr[T]: 746725372
+fchr[$]: 1052636474
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 355107337 bytes to primary GFM file: /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index.1.ht2
+Wrote 263159124 bytes to secondary GFM file: /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 462917771 bytes to primary GFM file: /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index.5.ht2
+Wrote 267955020 bytes to secondary GFM file: /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/outputs/hisat2-indexes/Taeniopygia_guttata.index.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HGFM constructor
+Headers:
+    len: 1052636474
+    gbwtLen: 1052636475
+    nodes: 1052636475
+    sz: 263159119
+    gbwtSz: 263159119
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 65789780
+    offsSz: 263159120
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 5482482
+    numLines: 5482482
+    gbwtTotLen: 350878848
+    gbwtTotSz: 350878848
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:06:17
