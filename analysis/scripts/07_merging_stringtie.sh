@@ -35,3 +35,11 @@ for tm in $treatments; do
         -o $out/stringtie-merged/$tm/$tm-merged.gtf \
         $(ls $data/*.gtf)
 done
+
+# global merge across all assemblies irrespective of treatment
+stringtie \
+    --merge -p $T \
+    -G $ref_gff \
+    -o $out/stringtie-merged/TaeGut_transcripts-merged.gtf \
+    $(ls $out/stringtie-assembly/**/*.gtf)
+

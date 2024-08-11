@@ -20,8 +20,16 @@ gffcompare=/home/samhur/gffcompare/gffcompare
 # Stop executing pipe on error
 set -euo pipefail
 
-for tm in $treatments; do
-    data=$out/gffcompare-stats/$tm
-    mkdir -p $data
-    $gffcompare -V -G -r $ref_gff -o $data/merged-$tm.gtf $out/stringtie-merged/$tm/*.gtf
-done
+# for tm in $treatments; do
+#     data=$out/gffcompare-stats/$tm
+#     mkdir -p $data
+#     $gffcompare -V -G -r $ref_gff -o $data/merged-$tm.gtf $out/stringtie-merged/$tm/*.gtf
+# done
+output=$out/gffcompare-stats
+
+# grab total annotations
+# files=$(find $out/gffcompare-stats -type f -name "*.gtf")
+# $gffcompare -V -G -r $ref_gff -o $output/merged-treatments.gtf $out/stringtie-merged/**/*.gtf
+
+mkdir -p $output/TaeGut-merged
+$gffcompare -V -G -r $ref_gff -o $output/TaeGut-merged/merged-TaeGut.gtf $out/stringtie-merged/TaeGut_transcripts-merged.gtf

@@ -10,9 +10,7 @@
 #SBATCH --error=/proj/naiss2024-23-424/analysis/scripts/logs/slurm/slurm-fastqc_pre.err
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user sam.hurenkamp.9631@student.uu.se
-
-source /proj/naiss2024-23-424/analysis/scripts/config.cfg
-source /proj/naiss2024-23-424/analysis/scripts/functions.sh
+source /proj/naiss2024-23-424/transcriptomics-isaksson_grp/analysis/scripts/config.cfg
 
 #modules
 module load \
